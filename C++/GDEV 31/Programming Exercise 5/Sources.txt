@@ -1,0 +1,4 @@
+https://math.stackexchange.com/questions/2121112/how-do-i-visualize-if-three-points-represent-a-right-or-left-turn
+https://github.com/rafael-plaza/ConvexHull/blob/master/main.cpp
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Geometry/Convex_hull/Monotone_chain#C++
+https://sites.google.com/site/indy256/algo_cpp/convex_hull

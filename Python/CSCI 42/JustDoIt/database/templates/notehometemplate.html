@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Productivity App</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'notehomestyles.css' %}">
+
+        <script src="{% static 'notehomescript.js' %}"></script>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="column">
+                <div class="buttonheader">
+                    <img src="{% static 'back.png' %}">
+                </div>
+                <h2 class="header_title">Notes Page</h2>
+                <h2 class="spacer">xxxxxxxxxxxxxxxx</h2>
+                <div class="buttonheadergroup">
+                    <img src="{% static 'search.png' %}">
+                </div>
+                <div class="buttonheadergroup">
+                    <form method = "post" enctype="multipart/form-data"> 
+                        {% csrf_token %} 
+                        {{ form }} 
+                        <input type="image" src="{% static 'add%20note.png' %}" alt="button">
+                    </form>
+                </div>
+                <div class="buttonheadergroup">
+                    <img src="{% static 'sort.png' %}">
+                </div>
+            </div>
+        </div>
+        <div class="noteCollection">
+            {% for note in notes %}
+                <div class="buttonNotes"></div>
+            {% endfor %}
+        </div>
+
+        <div class="outer_col"> 
+            <div class="pomodoro_timer">
+                <div class="time_amount">2:59</div>
+	<btn class="pomo_timer"> Start Pomodoro Timer </btn>
+</div>
+</div>
+        </div>
+
+    <div class="pomo_window">
+	<input class="time_input" dir="rtl" maxlength="5" type="text"> <!--https://stackoverflow.com/questions/8354975/how-can-i-limit-possible-inputs-in-a-html5-number-element --><!-- https://stackoverflow.com/questions/12114570/how-to-align-texts-inside-of-an-input--> <!--https://stackoverflow.com/questions/7524855/right-to-left-text-html-input--> <!--https://www.w3schools.com/tags/att_input_maxlength.asp-->
+	<div class="pomo_button_div">
+		<btn id="start_timer_btn" class="pomo_start_button">START</btn>
+		<btn id="end_timer_btn" class="pomo_start_button">END</btn>
+	</div>
+	<btn id="close_pomo_btn">X</btn>
+</div>
+    </body>
+    <script src="{% static 'homepage.js' %}"></script>
+</html>

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=OptionsPanelGUI
+comment1.params=data
+comment1.target=OptionsPanelGUI(Database)
+comment1.text=\r\n\ Contains\ the\ contents\ of\ the\ interface\r\n\r\n\ @param\ data\ loads\ the\ Database's\ data\r\n
+numComments=2

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ViewCardsDeckGUI
+comment1.params=data
+comment1.target=ViewCardsDeckGUI(Database)
+comment1.text=\r\n\ Creates\ the\ interface.\r\n\r\n\ @param\ data\ Imports\ the\ data\ from\ the\ database\r\n
+numComments=2

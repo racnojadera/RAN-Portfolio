@@ -1,0 +1,2 @@
+['Saint Paul', '1', 1, 'Filler for Set', 5, 'Filler for Absolute Problem No.', '1/16/2007', '15:15:41', 'B3', '1', '0.0', 'enonce', '()', '0', '(3x+9)(2x-2)+(5x-5)(-2x+5)', '()', '(0 0 devant)', 'rien', '', 'N1']
+['Saint Paul', '1', 1, 'Filler for Set', 5, 'Filler for Absolute Problem No.', '1/16/2007', '15:15:41', 'B3', '2', '0.4', 'termine', '()', '0', '(3x+9)(2x-2)+(5x-5)(-2x+5)', '()', '(0 0 devant)', 'rien', '', 'N1']

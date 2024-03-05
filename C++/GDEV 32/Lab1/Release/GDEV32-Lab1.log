@@ -1,0 +1,4 @@
+﻿Main.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl CreateShaderProgram(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShaderProgram@@YAIABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+    Hint on symbols that are defined and could potentially match:
+      "unsigned int __cdecl CreateShaderProgram(unsigned int const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?CreateShaderProgram@@YAIABIABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+D:\Raymond Nojadera\Coding\GDEV 32\OpenGL\Projects\GDEV32-Lab1\Release\GDEV32-Lab1.exe : fatal error LNK1120: 1 unresolved externals

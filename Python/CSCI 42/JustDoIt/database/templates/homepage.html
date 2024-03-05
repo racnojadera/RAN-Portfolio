@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'homepage.css' %}"  >
+    <title>Title</title>
+</head>
+<body>
+<div class="main_div">
+<div class="outer_col">
+
+</div>
+
+<div class="main_window">
+    <div class="button">
+	<img src="{% static 'notes.svg' %}">
+	<div class="column">
+	<h2 class="button_title"> NOTES </h2>
+	<p class="desc">Create, open and edit notes from previous sessions</p>
+	 </div>
+</div>
+    <div class="button">
+	<img src="{% static 'gallery.svg' %}">
+	<div class="column">
+	<h2 class="button_title"> PICTURES</h2>
+	<p class="desc">Take a picture or upload pictures of notes into your gallery</p>
+ </div>
+</div>
+</div>
+
+<div class="outer_col">
+    <div class="pomodoro_timer">
+	<div class="time_amount">2:59</div>
+	<btn class="pomo_timer"> Start Pomodoro Timer </btn>
+</div>
+</div>
+</div>
+
+<div class="pomo_window">
+	<input class="time_input" dir="rtl" maxlength="5" type="text"> <!--https://stackoverflow.com/questions/8354975/how-can-i-limit-possible-inputs-in-a-html5-number-element --><!-- https://stackoverflow.com/questions/12114570/how-to-align-texts-inside-of-an-input--> <!--https://stackoverflow.com/questions/7524855/right-to-left-text-html-input--> <!--https://www.w3schools.com/tags/att_input_maxlength.asp-->
+	<div class="pomo_button_div">
+		<btn id="start_timer_btn" class="pomo_start_button">START</btn>
+		<btn id="end_timer_btn" class="pomo_start_button">END</btn>
+	</div>
+	<btn id="close_pomo_btn">X</btn>
+</div>
+</body>
+<script src="{% static 'homepage.js' %}"></script>
+</html>

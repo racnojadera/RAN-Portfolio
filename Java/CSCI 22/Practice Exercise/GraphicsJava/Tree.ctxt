@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Tree\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=x\ y\ w\ h\ c
+comment1.target=Tree(double,\ double,\ double,\ double,\ java.awt.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Tree\r\n
+comment2.params=g2d
+comment2.target=void\ draw(java.awt.Graphics2D)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+numComments=3

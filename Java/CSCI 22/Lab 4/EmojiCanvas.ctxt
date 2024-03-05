@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=EmojiCanvas
+comment1.params=w\ h\ c
+comment1.target=EmojiCanvas(int,\ int,\ java.awt.Color)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=bgColor
+comment3.target=void\ setBackgroundColor(java.awt.Color)
+comment4.params=
+comment4.target=Emoji\ getEmoji()
+numComments=5

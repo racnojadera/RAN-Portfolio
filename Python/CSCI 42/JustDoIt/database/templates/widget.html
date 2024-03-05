@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Spotify Widget</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'widget.css' %}">
+</head>
+
+<body>
+	<div class="bg-dark">
+		<div class="col-md-2 mh-100">
+			<div class="vertical-nav bg-light" id="sidebar">
+				<div class="py-4 px-3 mb-4 bg-light">
+					<div class="media d-flex align-items-center"><img src="{% static 'pfp.png' %}" alt="luminepic" width="55"
+							class="rounded-circle">
+						<div class="row gx-5">
+							<h4 class="m-0">Lumine</h4>
+							<p class="text-muted font-weight-light mb-0">Traveler</p>
+						</div>
+					</div>
+				</div>
+
+				<p class="text-gray font-weight-bold bg-light text-uppercase px-3 small pb-4 mb-0">Navigation</p>
+
+				<ul class="nav flex-column bg-light mb-0">
+					<li class="nav-item">
+						<a href="#" class="nav-link text-dark font-italic">
+							<i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-dark font-italic">
+							<i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+							Dashboard
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-dark font-italic">
+							<i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+							Photos
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link text-dark font-italic">
+							<i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+							Notes
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="right-navbar">
+			<iframe src="https://open.spotify.com/embed/album/1nMHkGDJwTvoW3LTTdUVwA" width="260" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		</div>
+	</div>
+</body>
+
+</html>

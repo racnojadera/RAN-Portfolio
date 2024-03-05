@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Emoji
+comment1.params=x\ y\ s\ c
+comment1.target=Emoji(double,\ double,\ double,\ java.awt.Color)
+comment2.params=g2d
+comment2.target=void\ draw(java.awt.Graphics2D)
+comment3.params=distance
+comment3.target=void\ adjustX(double)
+comment4.params=distance
+comment4.target=void\ adjustY(double)
+comment5.params=increase
+comment5.target=void\ adjustSize(double)
+comment6.params=rotation
+comment6.target=void\ rotate(double)
+comment7.params=
+comment7.target=void\ setLight()
+comment8.params=
+comment8.target=void\ setDark()
+numComments=9

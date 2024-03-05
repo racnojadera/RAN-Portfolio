@@ -1,0 +1,96 @@
+;FeuilleDeCalculs;2;actions;
+{[Type FeuilleDeCalculs] [Activite Entrainement] [expression <<{[{[5(2x-2)(4x+4)]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}]_donne_ [{[40x{@^[2]}-40]_etape_ 
+[""]_etape_ ["Solved"]_etape_ [""]}]}>>] [score 1.000000000] [ExpressionGlobaleDepart 
+<<{[5(2x-2)(4x+4)]_etape_ ["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}>>] 
+[CreditsIndications -1]}
+
+%;FICHIER-ACTIONS;#VersionProtocoles=1;#Appli=APLUSIX II1.01c
+
+%;ELEVE
+#identifiant="r1s01"
+#passe="0F/D2F-C0C"
+#nom=""
+#prenom=""
+#NumeroAnonyme=956
+#Role=Eleve
+#SousRole=()
+#Email=""
+#Langue=()
+#premierlancement="true"
+#RepSaveAs="C:"
+#laclasse="Saint Paul Run 1"
+#CheminRepertoireActivite="C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement"
+#Activite=Entrainement
+#DureeDuTest=1800
+#SorteListeExercice=ListeExercices
+#ListeExercices=("C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-09-28-N01.alg" 
+(<<5(2x-2)(4x+4)>> PatronExpADev34) (<<(-4x-4)(-5x+4)>> PatronExpADev31) (<<2(2x-1)+(5x+1)(-3x-4)>> 
+PatronExpADev41) (<<(3x+9)(2x-2)+(5x-5)(-2x+5)>> PatronExpADev43) (<<(2x{@^[2]}+2x+4)(4x-2)>> 
+PatronExpADev35) (<<(-3x+7)(-6x+1)>> PatronExpADev31) (<<({[1]/[3]}x+{[9]/[4]})({[4]/[3]}x+{[7]/[2]})>> 
+PatronExpADev31a) (<<4(4x+2)(4x-1)>> PatronExpADev34) (<<(2x{@^[2]}+3x-1)(2x+2)>> 
+PatronExpADev35))
+#NumeroExercice=2
+#TempsTestRestant=0
+#FichierListeExercices=""
+#InfoListeEngendree=("CHABRO-1.0" "B3")
+#ExerciceHorsListe=()
+#FichierPointAlg=""
+#FeuilleCalculTerminee=vrai
+#DocumentModifie=()
+#verification=permanente
+#LeScoreMax=20
+
+%;PARAMETRES
+#VerificationCalculs=ChoixEleve
+#PorteeVerification=tout
+#RaisonnementCorrect=non
+#SansMalFormee=oui
+#SansErronee=oui
+#CommandeCalculsNumeriques=decimal
+#CommandeDevelopperReduire=non
+#CommandeFactoriser=rien
+#CommandeResoudreEquation=rien
+#OrdreExerciceAleatoire=oui
+#IncitationCommentaire=non
+#PresentationSolution=oui
+#RetourEnArriere=oui
+#DureeTest=@30
+#petiteFleche=ChoixEleve
+#EtapeInterneModifiable=oui
+#AvecSelection=oui
+#FrappeParentheses=texte
+#FrappeFraction=infixee
+#CreationEleve=oui
+#ScoreMaxi=@20
+#PositionIncitationCommentaire=Partout
+#VerificationResolu=vrai
+
+%;CHAMPS
+No;duree;action;erreur;etape;expression;etat;curseur;selection;equivalence;resolu;
+
+%;ACTIONS;#Date=1/16/2007#Heure=15:11:40;#TypeProbleme=TpbDevelopper
+0;0.0;structure;();0;();();();();();();
+1;0.0;enonce;();0;5(2x-2)(4x+4);();(0 0 devant);rien;;N1;
+2;12.4;dupliquer;();1;5(2x-2)(4x+4);();(0 0 devant);rien;V1;N1;
+3;1.7;selection;();1;5(2x-2)(4x+4);();rien;();V1;N1;
+4;3.9;1;();1;1;();(0 derriere);rien;V0;S0;
+5;0.5;0;();1;10;();(1 derriere);rien;V0;S0;
+6;0.6;x;();1;10x;();(1 derriere);rien;V0;S0;
+7;3.0;-;();1;10x-?;();(1 0 dedans);rien;V-;N-;
+8;7.8;1;();1;10x-1;();(1 0 0 derriere);rien;V0;S0;
+9;0.7;0;();1;10x-10;();(1 0 1 derriere);rien;V0;S0;
+10;26.2;selection;();1;10x-10;();rien;();V0;S0;
+11;0.4;placerCurseur;();1;10x-10;();(0 0 1 devant);rien;V0;S0;
+12;0.4;placerCurseur;();1;10x-10;();(0 0 1 derriere);rien;V0;S0;
+13;0.9;BackSpace;();1;1x-10;();(0 0 0 derriere);rien;V0;N0;
+14;0.1;BackSpace;();1;x-10;();(0 devant);rien;V0;S0;
+15;1.2;4;();1;4x-10;();(0 0 0 derriere);rien;V0;S0;
+16;0.4;0;();1;40x-10;();(0 0 1 derriere);rien;V0;S0;
+17;0.7;placerCurseur;();1;40x-10;();(1 devant);rien;V0;S0;
+18;1.7;{@^[2]};();1;40x{@^[2]}-10;();(0 1 derriere);rien;V0;S0;
+19;1.5;placerCurseur;();1;40x{@^[2]}-10;();(1 0 1 devant);rien;V0;S0;
+20;0.6;BackSpace;();1;40x{@^[2]}-0;();(1 0 0 devant);rien;V0;N0;
+21;0.8;4;();1;40x{@^[2]}-40;();(1 0 0 derriere);rien;V1;S1;
+22;2.6;resolu;();1;40x{@^[2]}-40;();(1 0 0 derriere);rien;V1;S1;
+23;0.0;termine;();1;40x{@^[2]}-40;();(1 0 0 derriere);rien;V1;S1;

@@ -1,0 +1,5 @@
+Directory:
+D:\Coding\GDEV 42
+
+Compile:
+g++ Main.cpp -o out -I raylib/ -L raylib/ -lraylib -lopengl32 -lgdi32 -lwinmm

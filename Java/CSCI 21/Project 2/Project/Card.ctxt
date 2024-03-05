@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Card
+comment0.text=\r\n\ A\ representation\ of\ a\ single\ card.\r\n\r\n\ @author\ Raymond\ Andrew\ C.\ Nojadera\r\n\ @version\ December\ 8,\ 2018\r\n
+comment1.params=f\ b
+comment1.target=Card(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ card\r\n\r\n\ @param\ f\ sets\ the\ content\ of\ the\ front.\r\n\ @param\ b\ sets\ the\ content\ of\ the\ back.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getBack()
+comment2.text=\r\n\ Gets\ the\ front\ face\ of\ the\ card.\r\n\ \r\n\ @return\ the\ front\ content.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFront()
+comment3.text=\r\n\ Gets\ the\ back\ face\ of\ the\ card.\r\n\r\n\ @return\ the\ back\ content.\r\n
+numComments=4

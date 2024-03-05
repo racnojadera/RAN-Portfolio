@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=House
+comment0.text=\r\nI\ have\ not\ discussed\ the\ Java\ language\ code\ \r\nin\ my\ program\ with\ anyone\ other\ than\ my\ instructor\ \r\nor\ the\ teaching\ assistants\ assigned\ to\ this\ course.\r\n\r\nI\ have\ not\ used\ Java\ language\ code\ obtained\ \r\nfrom\ another\ student,\ or\ any\ other\ unauthorized\ \r\nsource,\ either\ modified\ or\ unmodified.\r\n\r\nIf\ any\ Java\ language\ code\ or\ documentation\ \r\nused\ in\ my\ program\ was\ obtained\ from\ another\ source,\ \r\nsuch\ as\ a\ text\ book\ or\ webpage,\ those\ have\ been\ \r\nclearly\ noted\ with\ a\ proper\ citation\ in\ the\ comments\ \r\nof\ my\ code.\r\n
+comment1.params=x\ y\ s\ c
+comment1.target=House(double,\ double,\ double,\ java.awt.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ House\r\n
+comment2.params=g2d
+comment2.target=void\ draw(java.awt.Graphics2D)
+numComments=3

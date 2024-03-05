@@ -1,0 +1,270 @@
+;FeuilleDeCalculs;2;actions;
+{[Type FeuilleDeCalculs] [Activite Entrainement] [expression <<{[{[-(x-8)-(8x+7)]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}]_donne_ [{[{[-x+8-(8x+7)]_etape_ 
+[""]_etape_ [""]_etape_ [""]}]_donne_ [{[{[-x+8-8x-7]_etape_ [""]_etape_ [""]_etape_ 
+[""]}]_donne_ [{[-9x+1]_etape_ [""]_etape_ ["Solved"]_etape_ [""]}]}]}]}>>] [score 
+1.000000000] [ExpressionGlobaleDepart <<{[-(x-8)-(8x+7)]_etape_ ["Expand and simplify"]_etape_ 
+[""]_etape_ ["TpbDevelopper"]}>>] [CreditsIndications -1]}
+
+%;FICHIER-ACTIONS;#VersionProtocoles=1;#Appli=APLUSIX II1.01c
+
+%;ELEVE
+#identifiant="r1s06"
+#passe="0K/D2F-C0C"
+#nom="Run 1"
+#prenom="Student 06"
+#NumeroAnonyme=1
+#Role=Eleve
+#SousRole=()
+#Email=""
+#Langue=()
+#premierlancement="true"
+#RepSaveAs="C:"
+#laclasse="St Paul Run 1"
+#CheminRepertoireActivite="C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement"
+#Activite=Entrainement
+#DureeDuTest=1800
+#SorteListeExercice=ListeExercices
+#ListeExercices=("C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-48-05-N01.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-48-57-N02.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-50-07-N03.alg" 
+(<<-(x-8)-(8x+7)>> PatronExpADev22) (<<9x+8-(-8x+1)>> PatronExpADev21) (<<-5x(-6x{@^[2]}+2)>> 
+PatronExpADev16) (<<-5x-8-(7x+7)-4x-3>> PatronExpADev23a) (<<3(8x-9)+4(-4x-1)>> PatronExpADev25) 
+(<<-2x{@^[2]}-3x+1-(7x{@^[2]}+9x-5)>> PatronExpADev24) (<<6(6x+3)-(-4x+3)>> PatronExpADev26))
+#NumeroExercice=4
+#TempsTestRestant=0
+#FichierListeExercices=""
+#InfoListeEngendree=("CHABRO-1.0" "B1")
+#ExerciceHorsListe=()
+#FichierPointAlg=""
+#FeuilleCalculTerminee=vrai
+#DocumentModifie=()
+#verification=permanente
+#LeScoreMax=20
+
+%;PARAMETRES
+#VerificationCalculs=ChoixEleve
+#PorteeVerification=tout
+#RaisonnementCorrect=non
+#SansMalFormee=oui
+#SansErronee=oui
+#CommandeCalculsNumeriques=decimal
+#CommandeDevelopperReduire=non
+#CommandeFactoriser=rien
+#CommandeResoudreEquation=rien
+#OrdreExerciceAleatoire=oui
+#IncitationCommentaire=non
+#PresentationSolution=oui
+#RetourEnArriere=oui
+#DureeTest=@30
+#petiteFleche=ChoixEleve
+#EtapeInterneModifiable=oui
+#AvecSelection=oui
+#FrappeParentheses=texte
+#FrappeFraction=infixee
+#CreationEleve=oui
+#ScoreMaxi=@20
+#PositionIncitationCommentaire=Partout
+#VerificationResolu=vrai
+
+%;CHAMPS
+No;duree;action;erreur;etape;expression;etat;curseur;selection;equivalence;resolu;
+
+%;ACTIONS;#Date=1/16/2007#Heure=13:50:39;#TypeProbleme=TpbDevelopper
+0;0.0;structure;();0;();();();();();();
+1;0.0;enonce;();0;-(x-8)-(8x+7);();(0 devant);rien;;N1;
+2;1.7;dupliquer;();1;-(x-8)-(8x+7);();(0 devant);rien;V1;N1;
+3;6.3;placerCurseur;();1;-(x-8)-(8x+7);();(0 0 0 0 derriere);rien;V1;N1;
+4;1.1;gauche;();1;-(x-8)-(8x+7);();(0 0 0 0 devant);rien;V1;N1;
+5;1.9;BackSpace;();1;-x-8-(8x+7);();(0 0 devant);rien;V0;N0;
+6;4.2;droite;();1;-x-8-(8x+7);();(0 0 derriere);rien;V0;N0;
+7;0.4;droite;();1;-x-8-(8x+7);();(1 0 0 devant);rien;V0;N0;
+8;0.7;BackSpace;();1;-x8-(8x+7);();(0 0 0 derriere);rien;V0;N0;
+9;0.9;=;();1;-x=8-(8x+7);();(1 0 0 devant);rien;V0;N0;
+10;0.9;BackSpace;();1;-x8-(8x+7);();(0 0 0 derriere);rien;V0;N0;
+11;0.4;+;();1;-x+8-(8x+7);();(1 0 devant);rien;V1;N1;
+12;2.2;placerCurseur;();1;-x+8-(8x+7);();(2 0 0 0 1 devant);rien;V1;N1;
+13;19.2;placerCurseur;();1;-x+8-(8x+7);();(2 0 0 1 0 devant);rien;V1;N1;
+14;3.2;gauche;();1;-x+8-(8x+7);();(2 0 0 0 1 derriere);rien;V1;N1;
+15;0.2;gauche;();1;-x+8-(8x+7);();(2 0 0 0 0 0 derriere);rien;V1;N1;
+16;0.5;gauche;();1;-x+8-(8x+7);();(2 0 0 0 0 0 devant);rien;V1;N1;
+17;0.7;BackSpace;();1;-x+8-8x+7;();(2 0 0 0 devant);rien;V0;N0;
+18;2.9;(;();1;-x+8-(#8x+7;();(2 0 0 0 0 devant);rien;V-;N-;
+19;2.8;placerCurseur;();1;-x+8-(#8x+7;();(derriere);rien;V-;N-;
+20;1.6;);();1;-x+8-(8x+7);();(2 0 derriere);rien;V1;N1;
+21;5.5;dupliquer;();2;-x+8-(8x+7);();(2 0 derriere);rien;V1;N1;
+22;7.8;BackSpace;();2;-x+8-8x+7;();(3 0 derriere);rien;V0;N0;
+23;0.2;BackSpace;();2;-x+8-8x+?;();(3 dedans);rien;V-;N-;
+24;0.3;BackSpace;();2;-x+8-8x;();(2 0 1 derriere);rien;V0;N0;
+25;0.1;BackSpace;();2;-x+8-8;();(2 0 0 derriere);rien;V0;N0;
+26;0.3;BackSpace;();2;-x+8-?;();(2 0 dedans);rien;V-;N-;
+27;1.6;5;();2;-x+8-5;();(2 0 0 derriere);rien;V0;N0;
+28;0.2;6;();2;-x+8-56;();(2 0 1 derriere);rien;V0;N0;
+29;0.8;x;();2;-x+8-56x;();(2 0 1 derriere);rien;V0;N0;
+30;1.6;BackSpace;();2;-x+8-56;();(2 0 1 derriere);rien;V0;N0;
+31;0.1;BackSpace;();2;-x+8-5;();(2 0 0 derriere);rien;V0;N0;
+32;0.3;BackSpace;();2;-x+8-?;();(2 0 dedans);rien;V-;N-;
+33;10.7;BackSpace;();2;-x+8;();(1 0 derriere);rien;V0;S0;
+34;0.1;BackSpace;();2;-x+?;();(1 dedans);rien;V-;N-;
+35;0.1;BackSpace;();2;-x;();(0 derriere);rien;V0;S0;
+36;0.1;BackSpace;();2;-?;();(0 dedans);rien;V-;N-;
+37;3.2;9;();2;-9;();(0 0 derriere);rien;V0;S0;
+38;0.5;x;();2;-9x;();(0 1 derriere);rien;V0;S0;
+39;3.7;BackSpace;();2;-9;();(0 0 derriere);rien;V0;S0;
+40;0.1;BackSpace;();2;-?;();(0 dedans);rien;V-;N-;
+41;0.2;BackSpace;();2;?;();(dedans);rien;V-;N-;
+42;7.1;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+43;18.8;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+44;1.0;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+45;0.4;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+46;0.2;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+47;0.1;placerCurseur;();2;?;();(dedans);rien;V-;N-;
+48;0.8;-;();2;-?;();(0 dedans);rien;V-;N-;
+49;13.0;8;();2;-8;();(0 0 derriere);rien;V0;S0;
+50;1.8;x;();2;-8x;();(0 1 derriere);rien;V0;S0;
+51;1.8;{@^[2]};();2;-8x{@^[2]};();(0 1 derriere);rien;V0;S0;
+52;5.3;+;();2;-8x{@^[2]}+?;();(1 dedans);rien;V-;N-;
+53;1.1;5;();2;-8x{@^[2]}+5;();(1 0 derriere);rien;V0;S0;
+54;0.2;6;();2;-8x{@^[2]}+56;();(1 1 derriere);rien;V0;S0;
+55;1.0;BackSpace;();2;-8x{@^[2]}+5;();(1 0 derriere);rien;V0;S0;
+56;0.1;BackSpace;();2;-8x{@^[2]}+?;();(1 dedans);rien;V-;N-;
+57;8.2;BackSpace;();2;-8x{@^[2]};();(0 1 derriere);rien;V0;S0;
+58;0.8;-;();2;-8x{@^[2]}-?;();(1 0 dedans);rien;V-;N-;
+59;0.4;5;();2;-8x{@^[2]}-5;();(1 0 0 derriere);rien;V0;S0;
+60;0.1;6;();2;-8x{@^[2]}-56;();(1 0 1 derriere);rien;V0;S0;
+61;1.0;BackSpace;();2;-8x{@^[2]}-5;();(1 0 0 derriere);rien;V0;S0;
+62;0.1;BackSpace;();2;-8x{@^[2]}-?;();(1 0 dedans);rien;V-;N-;
+63;0.2;BackSpace;();2;-8x{@^[2]};();(0 1 derriere);rien;V0;S0;
+64;1.9;BackSpace;();2;-8x;();(0 1 derriere);rien;V0;S0;
+65;0.1;BackSpace;();2;-8;();(0 0 derriere);rien;V0;S0;
+66;0.3;BackSpace;();2;-?;();(0 dedans);rien;V-;N-;
+67;1.5;BackSpace;();2;?;();(dedans);rien;V-;N-;
+0;0.0;structure;();(d 0 1);();();();();();();
+68;0.3;SupprEtape;();1;-x+8-(8x+7);();(2 0 derriere);rien;V1;N1;
+69;28.7;dupliquer;();3;-x+8-(8x+7);();(2 0 derriere);rien;V1;N1;
+70;0.8;placerCurseur;();3;-x+8-(8x+7);();(2 0 0 0 1 devant);rien;V1;N1;
+71;1.4;placerCurseur;();3;-x+8-(8x+7);();(2 0 0 0 0 0 devant);rien;V1;N1;
+72;0.8;BackSpace;();3;-x+8-8x+7;();(2 0 0 0 devant);rien;V0;N0;
+73;0.6;droite;();3;-x+8-8x+7;();(2 0 0 0 derriere);rien;V0;N0;
+74;0.2;droite;();3;-x+8-8x+7;();(2 0 1 derriere);rien;V0;N0;
+75;0.2;droite;();3;-x+8-8x+7;();(3 0 devant);rien;V0;N0;
+76;0.9;BackSpace;();3;-x+8-8x7;();(2 0 1 derriere);rien;V0;N0;
+77;0.3;-;();3;-x+8-8x-7;();(3 0 0 devant);rien;V1;N1;
+78;5.6;dupliquer;();4;-x+8-8x-7;();(3 0 0 devant);rien;V1;N1;
+79;7.5;placerCurseur;();4;-x+8-8x-7;();(0 0 derriere);rien;V1;N1;
+80;1.3;BackSpace;();4;-?+8-8x-7;();(0 0 dedans);rien;V-;N-;
+81;3.0;9;();4;-9+8-8x-7;();(0 0 0 derriere);rien;V0;N0;
+82;1.4;x;();4;-9x+8-8x-7;();(0 0 1 derriere);rien;V0;N0;
+83;2.1;placerCurseur;();4;-9x+8-8x-7;();(2 devant);rien;V0;N0;
+84;0.6;placerCurseur;();4;-9x+8-8x-7;();(2 0 1 devant);rien;V0;N0;
+85;0.4;placerCurseur;();4;-9x+8-8x-7;();(2 0 1 derriere);rien;V0;N0;
+86;0.6;BackSpace;();4;-9x+8-8-7;();(2 0 0 derriere);rien;V0;N0;
+87;0.1;BackSpace;();4;-9x+8-?-7;();(2 0 dedans);rien;V-;N-;
+88;0.9;BackSpace;();4;-9x+8-7;();(1 0 derriere);rien;V1;N1;
+89;0.4;BackSpace;();4;-9x+?-7;();(1 dedans);rien;V-;N-;
+90;0.8;droite;();4;-9x+?-7;();(2 0 0 devant);rien;V-;N-;
+91;0.1;droite;();4;-9x+?-7;();(2 0 0 derriere);rien;V-;N-;
+92;1.0;BackSpace;();4;-9x+?-?;();(2 0 dedans);rien;V-;N-;
+93;0.3;BackSpace;();4;-9x+?;();(1 dedans);rien;V-;N-;
+94;0.8;1;();4;-9x+1;();(1 0 derriere);rien;V1;S1;
+95;0.1;5;();4;-9x+15;();(1 1 derriere);rien;V0;S0;
+96;1.3;gauche;();4;-9x+15;();(1 0 derriere);rien;V0;S0;
+97;0.1;gauche;();4;-9x+15;();(1 0 devant);rien;V0;S0;
+98;0.8;BackSpace;();4;-9x15;();(0 1 derriere);rien;V0;N0;
+99;0.3;-;();4;-9x-15;();(1 0 0 devant);rien;V0;S0;
+100;1.3;placerCurseur;();4;-9x-15;();(0 0 devant);rien;V0;S0;
+101;0.6;BackSpace;();4;9x-15;();(0 0 0 devant);rien;V0;S0;
+102;6.4;-;();4;-9x-15;();(0 0 0 0 devant);rien;V0;S0;
+103;1.8;placerCurseur;();4;-9x-15;();(0 0 1 derriere);rien;V0;S0;
+104;5.0;{@^[2]};();4;-9x{@^[2]}-15;();(0 0 1 derriere);rien;V0;S0;
+105;1.2;placerCurseur;();4;-9x{@^[2]}-15;();(0 0 0 0 devant);rien;V0;S0;
+106;0.9;BackSpace;();4;9x{@^[2]}-15;();(0 0 0 devant);rien;V0;S0;
+107;1.7;-;();4;-9x{@^[2]}-15;();(0 0 0 0 devant);rien;V0;S0;
+108;1.6;placerCurseur;();4;-9x{@^[2]}-15;();(0 0 0 0 derriere);rien;V0;S0;
+109;0.7;BackSpace;();4;-x{@^[2]}-15;();(0 0 0 devant);rien;V0;S0;
+110;0.6;8;();4;-8x{@^[2]}-15;();(0 0 0 0 derriere);rien;V0;S0;
+111;3.0;placerCurseur;();4;-8x{@^[2]}-15;();(1 0 devant);rien;V0;S0;
+112;3.0;BackSpace;();4;-8x{@^[2]}15;();(0 1 derriere);rien;V0;N0;
+113;2.0;droite;();4;-8x{@^[2]}*15;();(0 2 0 derriere);rien;V0;N0;
+114;0.1;droite;();4;-8x{@^[2]}*15;();(0 2 1 derriere);rien;V0;N0;
+115;1.0;BackSpace;();4;-8x{@^[2]}*1;();(0 2 0 derriere);rien;V0;N0;
+116;0.1;BackSpace;();4;-8x{@^[2]}*?;();(0 2 dedans);rien;V-;N-;
+117;0.6;BackSpace;();4;-8x{@^[2]};();(0 1 derriere);rien;V0;S0;
+118;1.8;+;();4;-8x{@^[2]}+?;();(1 dedans);rien;V-;N-;
+119;0.9;5;();4;-8x{@^[2]}+5;();(1 0 derriere);rien;V0;S0;
+120;0.1;6;();4;-8x{@^[2]}+56;();(1 1 derriere);rien;V0;S0;
+121;0.9;gauche;();4;-8x{@^[2]}+56;();(1 0 derriere);rien;V0;S0;
+122;0.1;gauche;();4;-8x{@^[2]}+56;();(1 0 devant);rien;V0;S0;
+123;0.8;BackSpace;();4;-8x{@^[2]}56;();(0 1 derriere);rien;V0;N0;
+124;0.3;-;();4;-8x{@^[2]}-56;();(1 0 0 devant);rien;V0;S0;
+125;2.4;placerCurseur;();4;-8x{@^[2]}-56;();(0 0 1 0 devant);rien;V0;S0;
+126;2.0;BackSpace;();4;-x{@^[2]}-56;();(0 0 0 devant);rien;V0;S0;
+127;1.5;9;();4;-9x{@^[2]}-56;();(0 0 0 0 derriere);rien;V0;S0;
+128;1.1;gauche;();4;-9x{@^[2]}-56;();(0 0 0 0 devant);rien;V0;S0;
+129;0.1;gauche;();4;-9x{@^[2]}-56;();(0 devant);rien;V0;S0;
+130;0.8;droite;();4;-9x{@^[2]}-56;();(0 0 0 0 devant);rien;V0;S0;
+131;0.5;droite;();4;-9x{@^[2]}-56;();(0 0 0 0 derriere);rien;V0;S0;
+132;0.6;BackSpace;();4;-x{@^[2]}-56;();(0 0 0 devant);rien;V0;S0;
+133;0.1;BackSpace;();4;x{@^[2]}-56;();(0 0 devant);rien;V0;S0;
+134;0.5;8;();4;8x{@^[2]}-56;();(0 0 0 derriere);rien;V0;S0;
+135;12.1;placerCurseur;();4;8x{@^[2]}-56;();(1 0 0 devant);rien;V0;S0;
+136;0.8;BackSpace;();4;8x{@^[2]}56;();(1 derriere);rien;V0;N0;
+137;0.8;+;();4;8x{@^[2]}+56;();(1 0 devant);rien;V0;S0;
+138;1.1;gauche;();4;8x{@^[2]}+56;();(0 1 derriere);rien;V0;S0;
+139;0.1;gauche;();4;8x{@^[2]}+56;();(0 1 1 0 derriere);rien;V0;S0;
+140;0.3;gauche;();4;8x{@^[2]}+56;();(0 1 1 0 devant);rien;V0;S0;
+141;0.4;gauche;();4;8x{@^[2]}+56;();(0 1 0 derriere);rien;V0;S0;
+142;0.4;gauche;();4;8x{@^[2]}+56;();(0 0 0 derriere);rien;V0;S0;
+143;14.7;gauche;();4;8x{@^[2]}+56;();(0 0 0 devant);rien;V0;S0;
+144;0.8;-;();4;-8x{@^[2]}+56;();(0 0 0 0 devant);rien;V0;S0;
+145;33.1;placerCurseur;();4;-8x{@^[2]}+56;();(1 1 devant);rien;V0;S0;
+146;0.4;placerCurseur;();4;-8x{@^[2]}+56;();(1 1 derriere);rien;V0;S0;
+147;6.0;BackSpace;();4;-8x{@^[2]}+5;();(1 0 derriere);rien;V0;S0;
+148;0.0;BackSpace;();4;-8x{@^[2]}+?;();(1 dedans);rien;V-;N-;
+149;0.5;1;();4;-8x{@^[2]}+1;();(1 0 derriere);rien;V0;S0;
+150;0.1;5;();4;-8x{@^[2]}+15;();(1 1 derriere);rien;V0;S0;
+151;0.8;BackSpace;();4;-8x{@^[2]}+1;();(1 0 derriere);rien;V0;S0;
+152;0.1;BackSpace;();4;-8x{@^[2]}+?;();(1 dedans);rien;V-;N-;
+153;0.5;5;();4;-8x{@^[2]}+5;();(1 0 derriere);rien;V0;S0;
+154;0.1;6;();4;-8x{@^[2]}+56;();(1 1 derriere);rien;V0;S0;
+155;1.0;gauche;();4;-8x{@^[2]}+56;();(1 0 derriere);rien;V0;S0;
+156;0.1;gauche;();4;-8x{@^[2]}+56;();(1 0 devant);rien;V0;S0;
+157;0.4;gauche;();4;-8x{@^[2]}+56;();(0 0 1 derriere);rien;V0;S0;
+158;0.6;droite;();4;-8x{@^[2]}+56;();(1 0 devant);rien;V0;S0;
+159;0.3;BackSpace;();4;-8x{@^[2]}56;();(0 1 derriere);rien;V0;N0;
+160;3.4;-;();4;-8x{@^[2]}-56;();(1 0 0 devant);rien;V0;S0;
+161;3.0;gauche;();4;-8x{@^[2]}-56;();(0 0 1 derriere);rien;V0;S0;
+162;0.2;gauche;();4;-8x{@^[2]}-56;();(0 0 1 1 0 derriere);rien;V0;S0;
+163;0.2;gauche;();4;-8x{@^[2]}-56;();(0 0 1 1 0 devant);rien;V0;S0;
+164;0.2;gauche;();4;-8x{@^[2]}-56;();(0 0 1 0 derriere);rien;V0;S0;
+165;0.2;gauche;();4;-8x{@^[2]}-56;();(0 0 0 0 derriere);rien;V0;S0;
+166;0.4;gauche;();4;-8x{@^[2]}-56;();(0 0 0 0 devant);rien;V0;S0;
+167;0.7;BackSpace;();4;8x{@^[2]}-56;();(0 0 0 devant);rien;V0;S0;
+168;7.8;-;();4;-8x{@^[2]}-56;();(0 0 0 0 devant);rien;V0;S0;
+169;2.0;placerCurseur;();4;-8x{@^[2]}-56;();(0 0 1 0 derriere);rien;V0;S0;
+170;0.4;placerCurseur;();4;-8x{@^[2]}-56;();(0 0 1 1 0 derriere);rien;V0;S0;
+171;0.7;BackSpace;();4;-8x{@^[?]}-56;();(0 0 1 1 dedans);rien;V-;N-;
+172;0.1;BackSpace;();4;-8x-56;();(0 0 1 derriere);rien;V0;S0;
+173;2.0;BackSpace;();4;-8-56;();(0 0 0 derriere);rien;V0;N0;
+174;0.1;BackSpace;();4;-?-56;();(0 0 dedans);rien;V-;N-;
+175;0.1;BackSpace;();4;-56;();(devant);rien;V0;S0;
+176;35.6;placerCurseur;();4;-56;();(devant);rien;V0;S0;
+177;1.2;placerCurseur;();4;-56;();(devant);rien;V0;S0;
+178;0.1;placerCurseur;();4;-56;();(devant);rien;V0;S0;
+179;7.6;placerCurseur;();4;-56;();(0 0 devant);rien;V0;S0;
+180;1.3;droite;();4;-56;();(0 0 derriere);rien;V0;S0;
+181;0.1;droite;();4;-56;();(0 1 derriere);rien;V0;S0;
+182;0.7;BackSpace;();4;-5;();(0 0 derriere);rien;V0;S0;
+183;0.1;BackSpace;();4;-?;();(0 dedans);rien;V-;N-;
+184;0.3;BackSpace;();4;?;();(dedans);rien;V-;N-;
+185;1.2;9;();4;9;();(0 derriere);rien;V0;S0;
+186;0.4;x;();4;9x;();(1 derriere);rien;V0;S0;
+187;1.4;+;();4;9x+?;();(1 dedans);rien;V-;N-;
+188;0.5;1;();4;9x+1;();(1 0 derriere);rien;V0;S0;
+189;3.2;gauche;();4;9x+1;();(1 0 devant);rien;V0;S0;
+190;0.2;gauche;();4;9x+1;();(0 1 derriere);rien;V0;S0;
+191;0.1;gauche;();4;9x+1;();(0 0 0 derriere);rien;V0;S0;
+192;0.1;gauche;();4;9x+1;();(0 0 0 devant);rien;V0;S0;
+193;1.1;-;();4;-9x+1;();(0 0 0 0 devant);rien;V1;S1;
+194;3.8;resolu;();4;-9x+1;();(0 0 0 0 devant);rien;V1;S1;
+195;0.0;termine;();4;-9x+1;();(0 0 0 0 devant);rien;V1;S1;

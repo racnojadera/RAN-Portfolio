@@ -1,0 +1,77 @@
+;FeuilleDeCalculs;2;actions;
+{[Type FeuilleDeCalculs] [Activite Entrainement] [expression <<{[4(4x+2)(4x-1)]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}>>] [score 0.000000000] 
+[ExpressionGlobaleDepart <<{[4(4x+2)(4x-1)]_etape_ ["Expand and simplify"]_etape_ 
+[""]_etape_ ["TpbDevelopper"]}>>] [CreditsIndications -1]}
+
+%;FICHIER-ACTIONS;#VersionProtocoles=1;#Appli=APLUSIX II1.01c
+
+%;ELEVE
+#identifiant="r1s01"
+#passe="0F/D2F-C0C"
+#nom=""
+#prenom=""
+#NumeroAnonyme=956
+#Role=Eleve
+#SousRole=()
+#Email=""
+#Langue=()
+#premierlancement="true"
+#RepSaveAs="C:"
+#laclasse="Saint Paul Run 1"
+#CheminRepertoireActivite="C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement"
+#Activite=Entrainement
+#DureeDuTest=1800
+#SorteListeExercice=ListeExercices
+#ListeExercices=("C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-09-28-N01.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-11-40-N02.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-12-51-N03.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-13-39-N04.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-15-41-N05.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-15-41-N06.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-15-42-N07.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\Saint Paul Run 1\r1s01\D-2007-01-16\A-15-09-28-Entrainement\Ex-15-15-42-N08.alg" 
+(<<4(4x+2)(4x-1)>> PatronExpADev34) (<<(2x{@^[2]}+3x-1)(2x+2)>> PatronExpADev35))
+#NumeroExercice=9
+#TempsTestRestant=0
+#FichierListeExercices=""
+#InfoListeEngendree=("CHABRO-1.0" "B3")
+#ExerciceHorsListe=()
+#FichierPointAlg=""
+#FeuilleCalculTerminee=vrai
+#DocumentModifie=()
+#verification=permanente
+#LeScoreMax=20
+
+%;PARAMETRES
+#VerificationCalculs=ChoixEleve
+#PorteeVerification=tout
+#RaisonnementCorrect=non
+#SansMalFormee=oui
+#SansErronee=oui
+#CommandeCalculsNumeriques=decimal
+#CommandeDevelopperReduire=non
+#CommandeFactoriser=rien
+#CommandeResoudreEquation=rien
+#OrdreExerciceAleatoire=oui
+#IncitationCommentaire=non
+#PresentationSolution=oui
+#RetourEnArriere=oui
+#DureeTest=@30
+#petiteFleche=ChoixEleve
+#EtapeInterneModifiable=oui
+#AvecSelection=oui
+#FrappeParentheses=texte
+#FrappeFraction=infixee
+#CreationEleve=oui
+#ScoreMaxi=@20
+#PositionIncitationCommentaire=Partout
+#VerificationResolu=vrai
+
+%;CHAMPS
+No;duree;action;erreur;etape;expression;etat;curseur;selection;equivalence;resolu;
+
+%;ACTIONS;#Date=1/16/2007#Heure=15:15:43;#TypeProbleme=TpbDevelopper
+0;0.0;structure;();0;();();();();();();
+1;0.0;enonce;();0;4(4x+2)(4x-1);();(0 0 devant);rien;;N1;
+2;3.5;termine;();0;4(4x+2)(4x-1);();(0 0 devant);rien;;N1;

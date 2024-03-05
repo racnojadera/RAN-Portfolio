@@ -1,0 +1,5 @@
+music01.mp3 - https://opengameart.org/content/bossa-nova
+music02.mp3 - https://opengameart.org/content/pleasant-creek
+
+sound01.wav - https://opengameart.org/content/freeze-spell-0
+sound02.wav - https://opengameart.org/content/bombexplosion8bit

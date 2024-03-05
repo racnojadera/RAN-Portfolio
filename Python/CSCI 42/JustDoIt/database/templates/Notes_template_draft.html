@@ -1,0 +1,24 @@
+{% load static %}
+<html lang="en">
+<head>
+    <title>Notes (Test)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'Notes_template_css1.css' %}">
+</head>
+
+<body>
+    <div class="notesbox">
+        <textarea class="txtbox" rows="10" cols="40" wrap="hard" maxlength="2000"></textarea>
+        <form method="POST"> <!-- I'm not sure if I should include a URL here as <form action="/url/"> " -->
+            {% csrf_token %}
+            {{ form }}
+            <button type="submit">Save</button>
+        </form>
+    </div>
+    <p>
+        <button class="Button saveandexitbutton" type="submit">Save and Exit</button>
+    </p> 
+    
+</body>
+
+</html>

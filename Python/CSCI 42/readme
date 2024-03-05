@@ -1,0 +1,23 @@
+1. Set up a virtual environment (use venv, notes are googleable) before touching this code
+2. Afterwards, run the following command 'pip install -r requirements.txt'
+3. You can now contribute to the project. Make sure to follow proper git etiquette (make a new branch for every new freature and commit every discrete change)
+
+Quick notes on Django
+1. In the folder "JustDoIt/JustDoIt/JustDoIt", webpages go in the "templates" folder. We'll worry about connecting them later
+2. DB work invovles the models.py file and some use of the settings.py file
+3. When designing the UI, place an HTML file in the templates folder and test using your preferred web browser. Do NOT touch the rest of the django components.
+
+Run the server using the command 'python manage.py runserver'
+
+URLs so far:
+Home page - localhost:8000/homepage/
+Notes - localhost:8000/notes/
+Notes (ver 2) - localhost:8000/notes2/
+Spotify - localhost:8000/spotify/
+Photo Gallery - localhost:8000/gallery/
+
+For testing purposes, you may access the Django admin page (localhost:8000/admin) using the following credentials:
+Username: admin
+Password: p4ssw0rd
+
+NOTE: In order to use the photo gallery, you need to install Pillow v8.1.2 from pip. Please run 'pip install -r requirements.txt' again to install this version.

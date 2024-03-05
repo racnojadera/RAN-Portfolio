@@ -1,0 +1,122 @@
+;FeuilleDeCalculs;2;actions;
+{[Type FeuilleDeCalculs] [Activite Entrainement] [expression <<{[{[-7x-3-(2x-4)-8x+3]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}]_donne_ [{[{[-7x-3-2x+4-8x+3]_etape_ 
+[""]_etape_ [""]_etape_ [""]}]_donne_ [{[-17x+4]_etape_ [""]_etape_ ["Solved"]_etape_ 
+[""]}]}]}>>] [score 1.000000000] [ExpressionGlobaleDepart <<{[-7x-3-(2x-4)-8x+3]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}>>] [CreditsIndications 
+-1]}
+
+%;FICHIER-ACTIONS;#VersionProtocoles=1;#Appli=APLUSIX II1.01c
+
+%;ELEVE
+#identifiant="r1s09"
+#passe="0N/D2F-C0C"
+#nom="Run 1"
+#prenom="Student 09"
+#NumeroAnonyme=1
+#Role=Eleve
+#SousRole=()
+#Email=""
+#Langue=()
+#premierlancement="true"
+#RepSaveAs="C:"
+#laclasse="St. Paul Run 1"
+#CheminRepertoireActivite="C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement"
+#Activite=Entrainement
+#DureeDuTest=1800
+#SorteListeExercice=ListeExercices
+#ListeExercices=("C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-33-18-N01.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-36-28-N02.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-37-36-N03.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-37-54-N04.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-39-08-N05.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-40-53-N06.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St. Paul Run 1\r1s09\D-2007-01-16\A-21-33-18-Entrainement\Ex-21-41-35-N07.alg" 
+(<<-7x-3-(2x-4)-8x+3>> PatronExpADev23a) (<<4(5x-8)+4(-8x-2)>> PatronExpADev25) (<<2(-3x-1)-(7x+1)>> 
+PatronExpADev26))
+#NumeroExercice=8
+#TempsTestRestant=0
+#FichierListeExercices=""
+#InfoListeEngendree=("CHABRO-1.0" "B1")
+#ExerciceHorsListe=()
+#FichierPointAlg=""
+#FeuilleCalculTerminee=vrai
+#DocumentModifie=()
+#verification=permanente
+#LeScoreMax=20
+
+%;PARAMETRES
+#VerificationCalculs=ChoixEleve
+#PorteeVerification=tout
+#RaisonnementCorrect=non
+#SansMalFormee=oui
+#SansErronee=oui
+#CommandeCalculsNumeriques=decimal
+#CommandeDevelopperReduire=non
+#CommandeFactoriser=rien
+#CommandeResoudreEquation=rien
+#OrdreExerciceAleatoire=oui
+#IncitationCommentaire=non
+#PresentationSolution=oui
+#RetourEnArriere=oui
+#DureeTest=@30
+#petiteFleche=ChoixEleve
+#EtapeInterneModifiable=oui
+#AvecSelection=oui
+#FrappeParentheses=texte
+#FrappeFraction=infixee
+#CreationEleve=oui
+#ScoreMaxi=@20
+#PositionIncitationCommentaire=Partout
+#VerificationResolu=vrai
+
+%;CHAMPS
+No;duree;action;erreur;etape;expression;etat;curseur;selection;equivalence;resolu;
+
+%;ACTIONS;#Date=1/16/2007#Heure=21:42:47;#TypeProbleme=TpbDevelopper
+0;0.0;structure;();0;();();();();();();
+1;0.0;enonce;();0;-7x-3-(2x-4)-8x+3;();(0 devant);rien;;N1;
+2;1.1;dupliquer;();1;-7x-3-(2x-4)-8x+3;();(0 devant);rien;V1;N1;
+3;0.8;placerCurseur;();1;-7x-3-(2x-4)-8x+3;();(4 0 derriere);rien;V1;N1;
+4;0.7;BackSpace;();1;-7x-3-(2x-4)-8x+?;();(4 dedans);rien;V-;N-;
+5;0.1;BackSpace;();1;-7x-3-(2x-4)-8x;();(3 0 1 derriere);rien;V0;N0;
+6;0.1;BackSpace;();1;-7x-3-(2x-4)-8;();(3 0 0 derriere);rien;V0;N0;
+7;0.1;BackSpace;();1;-7x-3-(2x-4)-?;();(3 0 dedans);rien;V-;N-;
+8;0.1;BackSpace;();1;-7x-3-(2x-4);();(2 0 derriere);rien;V0;N0;
+9;0.1;BackSpace;();1;-7x-3-2x-4;();(3 0 0 derriere);rien;V0;N0;
+10;0.1;BackSpace;();1;-7x-3-2x-?;();(3 0 dedans);rien;V-;N-;
+11;0.1;BackSpace;();1;-7x-3-2x;();(2 0 1 derriere);rien;V0;N0;
+12;0.1;BackSpace;();1;-7x-3-2;();(2 0 0 derriere);rien;V0;N0;
+13;0.1;BackSpace;();1;-7x-3-?;();(2 0 dedans);rien;V-;N-;
+14;0.1;BackSpace;();1;-7x-3;();(1 0 0 derriere);rien;V0;S0;
+15;0.1;BackSpace;();1;-7x-?;();(1 0 dedans);rien;V-;N-;
+16;0.1;BackSpace;();1;-7x;();(0 1 derriere);rien;V0;S0;
+17;0.1;BackSpace;();1;-7;();(0 0 derriere);rien;V0;S0;
+18;0.1;BackSpace;();1;-?;();(0 dedans);rien;V-;N-;
+19;0.1;BackSpace;();1;?;();(dedans);rien;V-;N-;
+20;2.2;-;();1;-?;();(0 dedans);rien;V-;N-;
+21;1.1;7;();1;-7;();(0 0 derriere);rien;V0;S0;
+22;0.3;x;();1;-7x;();(0 1 derriere);rien;V0;S0;
+23;2.0;-;();1;-7x-?;();(1 0 dedans);rien;V-;N-;
+24;0.5;3;();1;-7x-3;();(1 0 0 derriere);rien;V0;S0;
+25;1.9;-;();1;-7x-3-?;();(2 0 dedans);rien;V-;N-;
+26;0.5;2;();1;-7x-3-2;();(2 0 0 derriere);rien;V0;N0;
+27;0.1;x;();1;-7x-3-2x;();(2 0 1 derriere);rien;V0;N0;
+28;20.0;+;();1;-7x-3-2x+?;();(3 dedans);rien;V-;N-;
+29;1.8;4;();1;-7x-3-2x+4;();(3 0 derriere);rien;V0;N0;
+30;23.0;-;();1;-7x-3-2x+4-?;();(4 0 dedans);rien;V-;N-;
+31;1.4;8;();1;-7x-3-2x+4-8;();(4 0 0 derriere);rien;V0;N0;
+32;0.2;x;();1;-7x-3-2x+4-8x;();(4 0 1 derriere);rien;V0;N0;
+33;1.5;+;();1;-7x-3-2x+4-8x+?;();(5 dedans);rien;V-;N-;
+34;0.4;3;();1;-7x-3-2x+4-8x+3;();(5 0 derriere);rien;V1;N1;
+35;1.4;dupliquer;();2;-7x-3-2x+4-8x+3;();(5 0 derriere);rien;V1;N1;
+36;2.3;selection;();2;-7x-3-2x+4-8x+3;();rien;();V1;N1;
+37;0.5;BackSpace;();2;?;();(dedans);rien;V-;N-;
+38;7.1;-;();2;-?;();(0 dedans);rien;V-;N-;
+39;0.8;1;();2;-1;();(0 0 derriere);rien;V0;S0;
+40;0.1;7;();2;-17;();(0 1 derriere);rien;V0;S0;
+41;0.2;x;();2;-17x;();(0 1 derriere);rien;V0;S0;
+42;10.9;+;();2;-17x+?;();(1 dedans);rien;V-;N-;
+43;0.3;4;();2;-17x+4;();(1 0 derriere);rien;V1;S1;
+44;4.4;resolu;();2;-17x+4;();(1 0 derriere);rien;V1;S1;
+45;0.0;termine;();2;-17x+4;();(1 0 derriere);rien;V1;S1;

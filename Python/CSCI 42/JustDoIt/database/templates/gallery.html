@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Photo Gallery</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'gallery.css' %}"  >
+    </head>
+    <body>
+        <h2><btn class="returnBtn">&lt;</btn>&nbsp&nbspPhoto Gallery</h2>
+        <hr>
+        <div class="galleryBtns">
+            <form method = "post" enctype="multipart/form-data"> 
+                {% csrf_token %} 
+                {{ form.as_p }} 
+                <button type="submit">Upload</button> 
+            </form> 
+            <div class="button uploadPic"><h3>Upload Picture</h3></div>
+            <div class="button takePic"><h3>Take Picture</h3></div>
+        </div>
+        <div class="photoGallery">
+            {% for photo in photos %}
+                <img class="picture" src="{{ photo.photo.url }}" />
+            {% endfor %}
+        </div>
+    </body>
+</html>

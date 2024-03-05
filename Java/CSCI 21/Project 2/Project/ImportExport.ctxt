@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ImportExport
+comment1.params=name
+comment1.target=ImportExport(java.lang.String)
+comment1.text=\r\n\ Constructs\ the\ values.\r\n
+comment2.params=
+comment2.target=void\ importTxt()
+comment2.text=\r\n\ Handles\ the\ importing\ of\ values\:\ prints\ them\ into\ a\ single\ line,\ breaking\ them\ into\ an\ array\ list,\ and\ separating\ them\ from\ front\ and\ back\ content.\r\n
+comment3.params=a\ b
+comment3.target=void\ exportContent(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Constructs\ a\ string\ that\ adds\ up\ all\ values\ loaded\ in\ the\ program.\r\n\r\n\ @param\ a\ gets\ the\ string\ "title"\ or\ the\ front\ value\ of\ a\ card.\r\n\ @param\ b\ gets\ the\ title\ of\ the\ deck\ or\ the\ back\ value\ of\ a\ card.\r\n
+comment4.params=
+comment4.target=void\ exportTxt()
+comment4.text=\r\n\ Breaks\ the\ string\ output\ from\ method\ exportContent\ into\ lines\ and\ writes\ them\ into\ a\ .txt\ file\ named\ fileName.\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getAllFront()
+comment5.text=\r\n\ Returns\ the\ ArrayList\ allFronts/\ array\ list\ of\ all\ front\ content\r\n\r\n\ @return\ the\ ArrayList\ containing\ all\ front\ content.\r\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getAllBack()
+comment6.text=\r\n\ Returns\ the\ ArrayList\ allFronts/\ array\ list\ of\ all\ back\ content\r\n\r\n\ @return\ the\ ArrayList\ containing\ all\ back\ content.\r\n
+numComments=7

@@ -1,0 +1,18 @@
+References:
+https://www.reddit.com/r/raylib/comments/rh3zm4/center_text/
+
+
+Main Menu BGM:
+https://www.youtube.com/watch?v=GUBDO5iiccw
+
+BGM 1:
+https://www.youtube.com/watch?v=1FxS-i6ipUA
+
+BGM 2:
+https://www.youtube.com/watch?v=gRFk7QAMlus
+
+Mouse Click:
+https://www.youtube.com/watch?v=B14L61fYZlc
+
+Bounce Collide:
+https://www.youtube.com/watch?v=gFEbM-8Ypj0

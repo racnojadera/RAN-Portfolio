@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FlashCardGUI
+comment1.params=data
+comment1.target=FlashCardGUI(Database)
+comment1.text=\r\n\ The\ main\ menu/first\ screen\ or\ frame\ of\ the\ program.\r\n\r\n\ @param\ data\ loads\ the\ Database\ data\ into\ the\ interface.\r\n
+numComments=2

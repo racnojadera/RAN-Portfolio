@@ -1,0 +1,5 @@
+Directory:
+D:\Raymond Nojadera\Coding\GDEV 41
+
+Compile:
+g++ Main.cpp -o out -I raylib/ -L raylib/ -lraylib -lopengl32 -lgdi32 -lwinmm

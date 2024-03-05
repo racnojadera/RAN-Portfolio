@@ -1,0 +1,1 @@
+g++ [filename.cpp] -o out -I raylib/ -L raylib/ -lraylib -lopengl32 -lgdi32 -lwinmm

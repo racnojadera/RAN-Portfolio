@@ -1,0 +1,19 @@
+﻿  Main.cpp
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(110,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(123,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(132,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(151,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(157,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(172,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(214,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(219,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(238,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(453,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(526,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Main.cpp(528,21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  10 of 518 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Exercise04-SAT.vcxproj -> D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 4\Release\Exercise04-SAT.exe

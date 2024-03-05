@@ -1,0 +1,2 @@
+['Saint Paul', '1', 1, 'Filler for Set', 7, 'Filler for Absolute Problem No.', '1/16/2007', '15:15:42', 'B3', '1', '0.0', 'enonce', '()', '0', '(-3x+7)(-6x+1)', '()', '(0 devant)', 'rien', '', 'N1']
+['Saint Paul', '1', 1, 'Filler for Set', 7, 'Filler for Absolute Problem No.', '1/16/2007', '15:15:42', 'B3', '2', '0.4', 'termine', '()', '0', '(-3x+7)(-6x+1)', '()', '(0 devant)', 'rien', '', 'N1']

@@ -1,0 +1,139 @@
+;FeuilleDeCalculs;2;actions;
+{[Type FeuilleDeCalculs] [Activite Entrainement] [expression <<{[{[3(8x-9)+4(-4x-1)]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}]_donne_ [{[{[24x-27-16x-4]_etape_ 
+[""]_etape_ [""]_etape_ [""]}]_donne_ [{[8x-31]_etape_ [""]_etape_ ["Solved"]_etape_ 
+[""]}]}]}>>] [score 1.000000000] [ExpressionGlobaleDepart <<{[3(8x-9)+4(-4x-1)]_etape_ 
+["Expand and simplify"]_etape_ [""]_etape_ ["TpbDevelopper"]}>>] [CreditsIndications 
+-1]}
+
+%;FICHIER-ACTIONS;#VersionProtocoles=1;#Appli=APLUSIX II1.01c
+
+%;ELEVE
+#identifiant="r1s06"
+#passe="0K/D2F-C0C"
+#nom="Run 1"
+#prenom="Student 06"
+#NumeroAnonyme=1
+#Role=Eleve
+#SousRole=()
+#Email=""
+#Langue=()
+#premierlancement="true"
+#RepSaveAs="C:"
+#laclasse="St Paul Run 1"
+#CheminRepertoireActivite="C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement"
+#Activite=Entrainement
+#DureeDuTest=1800
+#SorteListeExercice=ListeExercices
+#ListeExercices=("C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-48-05-N01.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-48-57-N02.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-50-07-N03.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-50-39-N04.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-57-52-N05.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-13-59-07-N06.alg" 
+"C:\Program Files\Aplusix II\AplusixSystem\..\..\..\Documents and Settings\All Users\Application Data\Aplusix\Classes\St Paul Run 1\r1s06\D-2007-01-16\A-13-48-05-Entrainement\Ex-14-01-20-N07.alg" 
+(<<3(8x-9)+4(-4x-1)>> PatronExpADev25) (<<-2x{@^[2]}-3x+1-(7x{@^[2]}+9x-5)>> PatronExpADev24) 
+(<<6(6x+3)-(-4x+3)>> PatronExpADev26))
+#NumeroExercice=8
+#TempsTestRestant=0
+#FichierListeExercices=""
+#InfoListeEngendree=("CHABRO-1.0" "B1")
+#ExerciceHorsListe=()
+#FichierPointAlg=""
+#FeuilleCalculTerminee=vrai
+#DocumentModifie=()
+#verification=permanente
+#LeScoreMax=20
+
+%;PARAMETRES
+#VerificationCalculs=ChoixEleve
+#PorteeVerification=tout
+#RaisonnementCorrect=non
+#SansMalFormee=oui
+#SansErronee=oui
+#CommandeCalculsNumeriques=decimal
+#CommandeDevelopperReduire=non
+#CommandeFactoriser=rien
+#CommandeResoudreEquation=rien
+#OrdreExerciceAleatoire=oui
+#IncitationCommentaire=non
+#PresentationSolution=oui
+#RetourEnArriere=oui
+#DureeTest=@30
+#petiteFleche=ChoixEleve
+#EtapeInterneModifiable=oui
+#AvecSelection=oui
+#FrappeParentheses=texte
+#FrappeFraction=infixee
+#CreationEleve=oui
+#ScoreMaxi=@20
+#PositionIncitationCommentaire=Partout
+#VerificationResolu=vrai
+
+%;CHAMPS
+No;duree;action;erreur;etape;expression;etat;curseur;selection;equivalence;resolu;
+
+%;ACTIONS;#Date=1/16/2007#Heure=14:03:28;#TypeProbleme=TpbDevelopper
+0;0.0;structure;();0;();();();();();();
+1;0.0;enonce;();0;3(8x-9)+4(-4x-1);();(0 0 0 devant);rien;;N1;
+2;4.9;dupliquer;();1;3(8x-9)+4(-4x-1);();(0 0 0 devant);rien;V1;N1;
+3;3.7;placerCurseur;();1;3(8x-9)+4(-4x-1);();(0 1 derriere);rien;V1;N1;
+4;1.0;BackSpace;();1;38x-9+4(-4x-1);();(1 0 0 derriere);rien;V0;N0;
+5;0.1;BackSpace;();1;38x-?+4(-4x-1);();(1 0 dedans);rien;V-;N-;
+6;0.4;BackSpace;();1;38x+4(-4x-1);();(0 1 derriere);rien;V0;N0;
+7;0.5;BackSpace;();1;38+4(-4x-1);();(0 1 derriere);rien;V0;N0;
+8;0.1;BackSpace;();1;3+4(-4x-1);();(0 0 derriere);rien;V0;N0;
+9;0.8;BackSpace;();1;?+4(-4x-1);();(0 dedans);rien;V-;N-;
+10;2.2;2;();1;2+4(-4x-1);();(0 0 derriere);rien;V0;N0;
+11;0.1;4;();1;24+4(-4x-1);();(0 1 derriere);rien;V0;N0;
+12;2.5;x;();1;24x+4(-4x-1);();(0 1 derriere);rien;V0;N0;
+13;1.5;-;();1;24x-?+4(-4x-1);();(1 0 dedans);rien;V-;N-;
+14;1.7;2;();1;24x-2+4(-4x-1);();(1 0 0 derriere);rien;V0;N0;
+15;0.2;7;();1;24x-27+4(-4x-1);();(1 0 1 derriere);rien;V1;N1;
+16;5.6;placerCurseur;();1;24x-27+4(-4x-1);();(2 1 0 0 0 1 derriere);rien;V1;N1;
+17;3.1;BackSpace;();1;24x-27+4(-4-1);();(2 1 0 0 0 0 derriere);rien;V0;N0;
+18;0.1;BackSpace;();1;24x-27+4(-?-1);();(2 1 0 0 0 dedans);rien;V-;N-;
+19;0.1;BackSpace;();1;24x-27+4(-1);();(2 1 0 devant);rien;V0;N0;
+20;0.2;BackSpace;();1;24x-27+4-1;();(2 0 derriere);rien;V0;N0;
+21;0.8;BackSpace;();1;24x-27+?-1;();(2 dedans);rien;V-;N-;
+22;1.6;1;();1;24x-27+1-1;();(2 0 derriere);rien;V0;N0;
+23;0.1;6;();1;24x-27+16-1;();(2 1 derriere);rien;V0;N0;
+24;7.3;x;();1;24x-27+16x-1;();(2 1 derriere);rien;V0;N0;
+25;1.7;droite;();1;24x-27+16x-1;();(3 0 0 devant);rien;V0;N0;
+26;0.1;droite;();1;24x-27+16x-1;();(3 0 0 derriere);rien;V0;N0;
+27;0.8;BackSpace;();1;24x-27+16x-?;();(3 0 dedans);rien;V-;N-;
+28;0.5;4;();1;24x-27+16x-4;();(3 0 0 derriere);rien;V0;N0;
+29;1.7;placerCurseur;();1;24x-27+16x-4;();(2 0 0 devant);rien;V0;N0;
+30;0.6;BackSpace;();1;24x-2716x-4;();(1 0 0 1 derriere);rien;V0;N0;
+31;0.2;-;();1;24x-27-16x-4;();(2 0 0 0 devant);rien;V1;N1;
+32;5.5;dupliquer;();2;24x-27-16x-4;();(2 0 0 0 devant);rien;V1;N1;
+33;15.3;placerCurseur;();2;24x-27-16x-4;();(2 0 1 derriere);rien;V1;N1;
+34;3.6;BackSpace;();2;24x-27-16-4;();(2 0 1 derriere);rien;V0;N0;
+35;0.1;BackSpace;();2;24x-27-1-4;();(2 0 0 derriere);rien;V0;N0;
+36;0.2;BackSpace;();2;24x-27-?-4;();(2 0 dedans);rien;V-;N-;
+37;0.4;BackSpace;();2;24x-27-4;();(1 0 1 derriere);rien;V0;N0;
+38;2.2;placerCurseur;();2;24x-27-4;();(0 1 derriere);rien;V0;N0;
+39;2.9;BackSpace;();2;24-27-4;();(0 1 derriere);rien;V0;N0;
+40;0.1;BackSpace;();2;2-27-4;();(0 0 derriere);rien;V0;N0;
+41;0.2;BackSpace;();2;-27-4;();(0 devant);rien;V0;N0;
+42;9.4;8;();2;8-27-4;();(0 0 derriere);rien;V0;N0;
+43;1.4;x;();2;8x-27-4;();(0 1 derriere);rien;V1;N1;
+44;3.5;placerCurseur;();2;8x-27-4;();(2 0 devant);rien;V1;N1;
+45;4.8;BackSpace;();2;8x-274;();(1 0 1 derriere);rien;V0;S0;
+46;0.1;BackSpace;();2;8x-24;();(1 0 0 derriere);rien;V0;S0;
+47;0.7;droite;();2;8x-24;();(1 0 1 derriere);rien;V0;S0;
+48;0.3;BackSpace;();2;8x-2;();(1 0 0 derriere);rien;V0;S0;
+49;0.5;3;();2;8x-23;();(1 0 1 derriere);rien;V0;S0;
+50;2.8;placerCurseur;();2;8x-23;();(1 devant);rien;V0;S0;
+51;0.3;placerCurseur;();2;8x-23;();(1 0 0 devant);rien;V0;S0;
+52;0.7;BackSpace;();2;8x23;();(1 derriere);rien;V0;N0;
+53;0.4;+;();2;8x+23;();(1 0 devant);rien;V0;S0;
+54;1.0;BackSpace;();2;8x23;();(1 derriere);rien;V0;N0;
+55;0.4;-;();2;8x-23;();(1 0 0 devant);rien;V0;S0;
+56;1.3;placerCurseur;();2;8x-23;();(1 0 1 derriere);rien;V0;S0;
+57;1.2;BackSpace;();2;8x-2;();(1 0 0 derriere);rien;V0;S0;
+58;0.1;BackSpace;();2;8x-?;();(1 0 dedans);rien;V-;N-;
+59;0.6;3;();2;8x-3;();(1 0 0 derriere);rien;V0;S0;
+60;0.1;1;();2;8x-31;();(1 0 1 derriere);rien;V1;S1;
+61;4.4;resolu;();2;8x-31;();(1 0 1 derriere);rien;V1;S1;
+62;0.0;termine;();2;8x-31;();(1 0 1 derriere);rien;V1;S1;

@@ -1,0 +1,5 @@
+https://gist.github.com/TimSC/0813573d77734bcb6f2cd2cf6cc7aa51
+https://stackoverflow.com/questions/3177241/what-is-the-best-way-to-concatenate-two-vectors
+https://www.cplusplus.com/reference/vector/vector/assign/
+https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/
+https://stackoverflow.com/questions/9818515/what-does-error-a-nonstatic-member-reference-must-be-relative-to-a-specific-o

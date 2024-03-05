@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=AddCardDeckGUI
+comment1.params=data
+comment1.target=AddCardDeckGUI(Database)
+comment1.text=\r\n\ Initializes\ and\ contains\ all\ the\ components\ found\ in\ the\ container.\r\n\r\n\ @param\ \ data\ loads\ data\ from\ the\ Database.\r\n
+numComments=2

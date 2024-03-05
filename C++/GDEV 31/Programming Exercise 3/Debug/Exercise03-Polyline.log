@@ -1,0 +1,9 @@
+﻿  Main.cpp
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(131,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(353,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(387,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(409,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(417,20): warning C4018: '<': signed/unsigned mismatch
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(428,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Main.cpp(455,27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Exercise03-Polyline.vcxproj -> D:\Raymond Nojadera\Coding\GDEV 31\Programming Exercise 3\Debug\Exercise03-Polyline.exe
